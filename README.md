@@ -45,4 +45,7 @@ Connect +5V to VBUS/5V
 
 Connect 3.3V to 3.3V
 
-**Note: Both 3v and 5v need to be connected at once on the PCM1808**
+*Note: Both 3v and 5v need to be connected at once on the PCM1808*
+
+## Usage
+Put in a SD card, when powering on, itll blink twice, if it blinks more than twice, the sd card did not initiate properly, try fix it, and press rst or replug power, once blinking stopped, you can press 0, aka the boot button to start recording, led will light up. if it blinks rapidly instead of a solid colour, the sd card was probibly unplugged or something. It will record **24-bit PCM @ 48 kHz**
